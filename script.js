@@ -126,7 +126,9 @@ function renderBars(
       bar.classList.add("comparing");
     }
 
-    if (numbersToRender.length <= 20) {
+    const hidePhoneLabels = window.innerWidth < 600 && numbersToRender.length > 15;
+
+    if (numbersToRender.length <= 20 && !hidePhoneLabels) {
       const valueLabel = document.createElement("span");
       valueLabel.classList.add("bar-value");
       valueLabel.textContent = number;
