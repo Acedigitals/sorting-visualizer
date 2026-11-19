@@ -4,11 +4,11 @@ An interactive visualizer that animates Bubble, Selection and Insertion sort ste
 
 ## Live Demo
 
-YOUR_VERCEL_LINK
+https://sorting-visualizer-app-sigma.vercel.app/
 
 ## Screenshot
 
-![Sorting Visualizer showing colored sorting bars and controls](assets/screenshot.png)
+![Sorting Visualizer showing colored sorting bars and controls](assets/screenshot.jpg)
 
 ## Features
 
@@ -22,7 +22,7 @@ YOUR_VERCEL_LINK
 - Stop button for cancelling a running sort
 - Live comparison counter and sorting statistics
 - Algorithm info card with best-case and worst-case time complexity
-- Number labels shown above bars when there are 20 bars or fewer
+- Number labels shown above bars (hidden on small screens when there are more than 15 bars)
 - Responsive layout for phone-sized screens
 - Keyboard focus styles and screen-reader status support
 
